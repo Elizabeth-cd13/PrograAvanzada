@@ -191,3 +191,27 @@ El simulador Simpletron procesa instrucciones con un formato de 5 dígitos, dond
 |README.md|Documentación principal|
 
 ---
+## Evidencia del Flujo de Trabajo (Git y GitHub)
+
+### Estrategia de Ramas Utilizada
+- `feature/archivos-simple`: Rama creada específicamente para subir programas de prueba en lenguaje SIMPLE.
+- `feature/modulos-simpletron`: Rama creada para actualizar los módulos del simulador en C (`Simpletron_M*.c`).
+- `feature/documentacion-readme`: Rama para la estructuración y mejora continua del README.
+
+### Flujo de Comandos Ejecutados
+```bash
+# 1. Limpieza e ignorado de ejecutables (.exe)
+git rm --cached Simpletron.exe
+echo "*.exe" >> .gitignore
+
+# 2. Trabajo por ramas específicas
+git checkout -b feature/archivos-simple
+git add SIMPLE/
+git commit -m "feat: agregar programas de prueba en lenguaje SIMPLE"
+git push -u origin feature/archivos-simple
+
+git checkout -b feature/modulos-simpletron
+git add Simpletron_M*.c
+git commit -m "feat: actualizar modulos de C para el simulador Simpletron"
+git push -u origin feature/modulos-simpletron
+```
