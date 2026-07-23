@@ -1,0 +1,8 @@
+10 let suma=10
+20 let i = 1
+30 input n
+40 let suma = suma + n
+50 let i = i + 1
+60 if i <= 10 goto 30
+70 print suma
+80 end
