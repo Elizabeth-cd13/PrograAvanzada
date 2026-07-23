@@ -185,9 +185,9 @@ El simulador Simpletron procesa instrucciones con un formato de 5 dígitos, dond
 
 | Archivo | Descripción |
 |----------|-------------|
-|Simpletron.c|Simulador Simpletron|
+|Simpletron_M8.c|Simulador Simpletron|
 |Integracion.c|Evaluación de expresiones|
-|Compilador.c|Compilador de Simple a SML|
+|Compilador_simple_definitivo.c|Compilador de Simple a SML|
 |README.md|Documentación principal|
 
 ---
