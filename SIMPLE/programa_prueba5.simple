@@ -1,0 +1,11 @@
+10 input m
+20 let c = 2
+30 if c > 10 goto 80
+40 input n
+50 if n < m goto 70
+60 goto 75
+70 let m = n
+75 let c = c + 1
+76 goto 30
+80 print m
+90 end

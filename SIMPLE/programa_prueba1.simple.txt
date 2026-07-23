@@ -1,0 +1,7 @@
+10 input a
+20 input b
+30 input c
+40 let s = a + b + c
+50 let m = s / 3
+60 print m
+70 end
