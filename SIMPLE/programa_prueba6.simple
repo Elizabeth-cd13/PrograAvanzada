@@ -1,0 +1,7 @@
+10 let s = 0
+20 let n = 2
+30 let s = s + n
+40 let n = n + 2
+50 if n <= 30 goto 30
+60 print s
+70 end

@@ -1,0 +1,7 @@
+10 let p = 1
+20 let n = 1
+30 let p = p * n
+40 let n = n + 2
+50 if n <= 9 goto 30
+60 print p
+70 end
